@@ -1,0 +1,16 @@
+.MyInput {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    background: #bbbbbb;
+    border: 2px solid rgb(42, 4, 255);
+    border-radius: 7px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button
+{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+

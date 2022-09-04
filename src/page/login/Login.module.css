@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.root {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30vh;
+}
+
+.description{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 66px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.username {
+    color: rgb(255, 255, 255);
+}
+
+.usernameFill {
+    width: calc(100% - 50px);
+    max-width: 450px;
+    height: calc(12.08% - 18px);
+    margin-bottom: 18px;
+    border-radius: 20px;
+    padding: 9px 0px 9px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid rgb(243, 121, 28);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.passwordFill {
+    width: calc(100% - 50px);
+    max-width: 450px;
+    height: calc(12.08% - 18px);
+    margin-bottom: 18px;
+    border-radius: 20px;
+    padding: 9px 0px 9px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid rgb(243, 121, 28);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.footer {
+    width: calc(100% - 50px);
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.redirect {
+    background-color: rgb(243, 121, 28);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.button_submit {
+    width: 110px;
+    height: calc(12.75% - 20px);
+    background-color: rgb(243, 121, 28);
+    border-radius: 20px;
+    padding: 10px 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

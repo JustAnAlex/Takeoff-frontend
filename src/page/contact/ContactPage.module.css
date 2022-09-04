@@ -1,0 +1,21 @@
+.main_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex: 0 0 auto;
+}
+
+div {
+    font-size: 20px;
+}
+
+.main_content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
